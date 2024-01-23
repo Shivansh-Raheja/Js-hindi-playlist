@@ -13,3 +13,11 @@ accountState="MadhyaPradesh"
 console.log("Data after Overriding")
 console.table([accountId,accountEmail,accountPassword,accountState])
 
+let accountCity;
+console.log(accountCity)// this will return "undefined on the screen"
+console.log("\n")
+
+console.log("/*prefer not to use var since it defies block and functional scope*/")
+
+console.log("\n") //here we have just showcased the use of a new line using "\n"
+
